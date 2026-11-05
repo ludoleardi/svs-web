@@ -1,5 +1,6 @@
 *.db
 .web
+.venv
 .states
 assets/external/
 __pycache__/
