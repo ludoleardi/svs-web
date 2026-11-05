@@ -12,7 +12,7 @@ config = rx.Config(
             theme=rx.theme(
                 appearance="dark",
                 has_background=True,
-                accent_color="orange",
+                accent_color="amber",
                 radius="large",
             )
         ),
