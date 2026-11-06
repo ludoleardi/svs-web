@@ -4,6 +4,10 @@ config = rx.Config(
     app_name="scenic_vision",
     api_url="https://api.scenicvisionstudio.it",
     deploy_url="https://www.scenicvisionstudio.it", # Add this line
+    cors_allowed_origins=[
+        "https://scenicvisionstudio.it",
+        "https://www.scenicvisionstudio.it"
+    ],
     show_built_with_reflex=False,
     plugins=[
         rx.plugins.SitemapPlugin(),
