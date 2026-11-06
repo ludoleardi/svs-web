@@ -767,7 +767,7 @@ a {
     background-image:
       linear-gradient(90deg, rgba(14, 14, 13, 0.83), rgba(14, 14, 13, 0.38)),
       linear-gradient(0deg, rgba(14, 14, 13, 0.58), transparent 50%),
-      url("https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=1000&q=80");
+      url("/hero1.jpeg");
     background-position: center, center, 58% center;
   }
 
