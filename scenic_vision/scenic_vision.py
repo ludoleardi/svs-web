@@ -39,8 +39,8 @@ def page(italian: bool = True) -> rx.Component:
         "nav_about": "Chi siamo" if italian else "About",
         "nav_contact": "Parliamone ↗" if italian else "Let's talk ↗",
         "hero_eyebrow": "PRODUZIONE LIVE / LIGHTING DESIGN" if italian else "LIVE PRODUCTION / LIGHTING DESIGN",
-        "hero_title_1": "Eventi che ti emozionano." if italian else "Events that move you.",
-        "hero_title_2": "Una produzione che ti accompagna." if italian else "A production that moves with you.",
+        "hero_title_1": "Audio, luci e produzione." if italian else "Audio, lighting & production.",
+        "hero_title_2": "Costruiamo il tuo show, dal concept al palco." if italian else "We build your show, from concept to stage.",
         "hero_copy": (
             "Partner di produzione creativo / tecnico e studio di lighting design per artisti, eventi ed esperienze live"
             if italian
@@ -105,7 +105,7 @@ def page(italian: bool = True) -> rx.Component:
         "work_2_credit": "FESTIVAL  /  2024—26",
         "work_3_sub": "Fornitura audio e luci" if italian else "Audio and lighting provider",
         "work_3_credit": "EVENTO LIVE  /  2023—26" if italian else "LIVE EVENT  /  2023—26",
-        "section_about": "04  /  LAVORIAMO BENE, INSIEME" if italian else "04  /  GOOD WORK, GOOD PEOPLE",
+        "section_about": "04  /  IL TEAM" if italian else "04  /  THE TEAM",
         "about_title": "Un team su misura. L'esperienza per realizzare grandi idee."
         if italian
         else "Small enough to care. Experienced enough to deliver.",

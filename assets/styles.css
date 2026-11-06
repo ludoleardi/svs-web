@@ -149,7 +149,7 @@ a {
 .hero {
   position: relative;
   display: flex;
-  height: min(760px, calc(100svh - 130px));
+  height: calc(100svh - 130px);
   min-height: 0;
   flex-direction: column;
   justify-content: space-between;
@@ -157,7 +157,7 @@ a {
   background-image:
     linear-gradient(90deg, rgba(14, 14, 13, 0.93) 0%, rgba(14, 14, 13, 0.72) 43%, rgba(14, 14, 13, 0.15) 100%),
     linear-gradient(0deg, rgba(14, 14, 13, 0.5), transparent 38%),
-    url("/hero1.jpeg");
+    url("/WEB_SVS/2025_SofaFestival/2025sofa4.jpeg");
   background-position: center, center, center 46%;
   background-size: cover;
 }
@@ -763,11 +763,11 @@ a {
   }
 
   .hero {
-    height: min(720px, calc(100svh - 125px));
+    height: calc(100svh - 125px);
     background-image:
       linear-gradient(90deg, rgba(14, 14, 13, 0.83), rgba(14, 14, 13, 0.38)),
       linear-gradient(0deg, rgba(14, 14, 13, 0.58), transparent 50%),
-      url("/hero1.jpeg");
+      url("/WEB_SVS/2025_SofaFestival/2025sofa4.jpeg");
     background-position: center, center, 58% center;
   }
 
